@@ -1,29 +1,409 @@
-[Sat May 30 16:02:02 2015] [notice] Apache/2.2.21 (Win32) PHP/5.3.9 configured -- resuming normal operations
-[Sat May 30 16:02:02 2015] [notice] Server built: Sep 10 2011 11:34:11
-[Sat May 30 16:02:02 2015] [notice] Parent: Created child process 7356
-[Sat May 30 16:02:03 2015] [notice] Child 7356: Child process is running
-[Sat May 30 16:02:03 2015] [notice] Child 7356: Acquired the start mutex.
-[Sat May 30 16:02:03 2015] [notice] Child 7356: Starting 64 worker threads.
-[Sat May 30 16:02:03 2015] [notice] Child 7356: Starting thread to listen on port 8080.
-[Sat May 30 16:02:03 2015] [notice] Child 7356: Starting thread to listen on port 8080.
-[Sat May 30 16:18:27 2015] [error] [client ::1] PHP Parse error:  syntax error, unexpected '<' in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\layout_functions.php on line 42
-[Sat May 30 16:28:49 2015] [error] [client ::1] PHP Fatal error:  Unsupported operand types in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 82, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:28:50 2015] [error] [client ::1] PHP Fatal error:  Unsupported operand types in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 82, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:53:20 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:53:20 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:55:07 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:55:07 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:56:22 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:56:22 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:59:19 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:59:19 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:59:35 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 16:59:35 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 17:00:00 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 17:00:00 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 17:02:25 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 17:02:25 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 17:03:14 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 17:03:14 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 17:04:57 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
-[Sat May 30 17:04:57 2015] [error] [client ::1] PHP Warning:  Missing argument 5 for comments_item(), called in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 161 and defined in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 49, referer: http://localhost:8080/?page=projects
+[Sat May 30 21:26:50 2015] [notice] Apache/2.2.21 (Win32) PHP/5.3.9 configured -- resuming normal operations
+[Sat May 30 21:26:50 2015] [notice] Server built: Sep 10 2011 11:34:11
+[Sat May 30 21:26:50 2015] [notice] Parent: Created child process 7804
+[Sat May 30 21:26:51 2015] [notice] Child 7804: Child process is running
+[Sat May 30 21:26:51 2015] [notice] Child 7804: Acquired the start mutex.
+[Sat May 30 21:26:51 2015] [notice] Child 7804: Starting 64 worker threads.
+[Sat May 30 21:26:51 2015] [notice] Child 7804: Starting thread to listen on port 8080.
+[Sat May 30 21:26:51 2015] [notice] Child 7804: Starting thread to listen on port 8080.
+[Sat May 30 21:27:11 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sat May 30 21:27:11 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sat May 30 21:27:37 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sat May 30 21:27:37 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sat May 30 21:28:23 2015] [error] [client ::1] File does not exist: F:/8.5/root/wp-content/themes/mokka/admin/assets/images/button_check.png, referer: http://localhost:8080/wp-content/themes/mokka/admin/assets/css/admin-style.css?ver=4.2.2
+[Sun May 31 00:34:12 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 00:34:12 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 00:34:23 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 00:34:23 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 14:45:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:45:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:45:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:45:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:47:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:47:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:47:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:47:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:47:04 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:47:04 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:47:04 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:47:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:50:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:50:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:50:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:50:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:50:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 14:50:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 14:50:46 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 14:50:46 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 14:50:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 14:50:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 14:50:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:50:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:50:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:50:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:51:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 14:51:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 14:51:56 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:51:56 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:51:56 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:51:56 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:52:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:52:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:52:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:52:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:53:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:56:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:56:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:56:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:56:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:57:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:57:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:57:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:57:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:57:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:57:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 14:57:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:44 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:44 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:44 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:44 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:01:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:02:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:03:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:03:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:03:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:03:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:03:10 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:03:10 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:03:10 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:03:15 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:03:15 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:05:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:05:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:05:16 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:05:16 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:06:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:06:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:07:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:07:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:07:27 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:08:10 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:08:10 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:10:31 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:10:31 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:10:36 2015] [error] [client ::1] PHP Warning:  include_once(./inc/php/include.inc.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\newproject.php on line 1, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:10:36 2015] [error] [client ::1] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening './inc/php/include.inc.php' for inclusion (include_path='.;C:\\php\\pear') in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\newproject.php on line 1, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:10:36 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function project_category_options() in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\newproject.php on line 30, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:10:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newproject
+[Sun May 31 15:10:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newproject
+[Sun May 31 15:11:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:11:20 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:11:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 15:11:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 15:13:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:13:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:13:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newproject
+[Sun May 31 15:13:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 15:13:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 15:13:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newevent
+[Sun May 31 15:13:34 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 15:13:34 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 15:18:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:18:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:18:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:18:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:18:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:18:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:49:06 2015] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_VARIABLE in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 169, referer: http://localhost:8080/
+[Sun May 31 15:49:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:49:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 15:49:32 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:49:32 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:49:32 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:43 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:43 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:43 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:50:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:51:16 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:51:17 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:51:17 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:51:17 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:51:17 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:51:17 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:51:17 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:51:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:01 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:01 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:01 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:01 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:01 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:27 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:44 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:55:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:56:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:56:41 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:56:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:56:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:56:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:56:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:57:12 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:57:38 2015] [error] [client ::1] File does not exist: F:/8.5/root/img, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:57:46 2015] [error] [client ::1] File does not exist: F:/8.5/root/mokka-child
+[Sun May 31 15:57:55 2015] [error] [client ::1] File does not exist: F:/8.5/root/themes
+[Sun May 31 15:58:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/wp-content/themes/mokka-child/img/2.jpg, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/wp-content/themes/mokka-child/img/2.jpg, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 15:58:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:08:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 16:08:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 16:08:06 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function gerbuiker_item() in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 193, referer: http://localhost:8080/?page=projects
+[Sun May 31 16:08:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:08:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:08:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/5, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:08:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:08:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/5, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:08:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:09:35 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 16:09:35 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 16:09:40 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:09:40 2015] [error] [client ::1] File does not exist: F:/8.5/root/5, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:09:40 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:10:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:10:50 2015] [error] [client ::1] File does not exist: F:/8.5/root/5, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:10:50 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:10:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/5, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:10:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:12:07 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:12:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/5, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:12:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:12:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/5, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:12:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:12:55 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 16:12:55 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 16:13:37 2015] [error] [client ::1] script 'F:/8.5/root/eventdetail.php' not found or unable to stat, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 16:15:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 16:15:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 16:15:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:15:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:15:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:35:48 2015] [error] [client ::1] PHP Fatal error:  Cannot use object of type mysqli_result as array in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 230
+[Sun May 31 16:35:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:36:40 2015] [error] [client ::1] PHP Fatal error:  Cannot use object of type mysqli_result as array in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 231
+[Sun May 31 16:36:41 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:36:48 2015] [error] [client ::1] PHP Fatal error:  Cannot use object of type mysqli_result as array in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 231
+[Sun May 31 16:36:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:37:01 2015] [error] [client ::1] PHP Fatal error:  Cannot use object of type mysqli_result as array in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 231
+[Sun May 31 16:37:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:37:07 2015] [error] [client ::1] PHP Fatal error:  Cannot use object of type mysqli_result as array in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 231
+[Sun May 31 16:37:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:37:31 2015] [error] [client ::1] PHP Fatal error:  Cannot use object of type mysqli_result as array in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 231
+[Sun May 31 16:37:31 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:37:35 2015] [error] [client ::1] PHP Fatal error:  Cannot use object of type mysqli_result as array in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 231
+[Sun May 31 16:37:35 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:39:15 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:39:16 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:39:16 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:39:16 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 16:39:16 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:16:11 2015] [error] [client ::1] PHP Parse error:  syntax error, unexpected ')' in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 248
+[Sun May 31 17:16:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:16:29 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:16:29 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:16:57 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:16:57 2015] [error] [client ::1] File does not exist: F:/8.5/root/1, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:16:57 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:16:57 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:18:21 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:18:21 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:18:21 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:19:50 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:19:50 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:19:50 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:19:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:19:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:21:43 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:21:43 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:21:43 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:22:07 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:22:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:22:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:22:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:22:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:32:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:32:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:32:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:32:38 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:32:38 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:32:38 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:34:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:34:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:34:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:34:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:34:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:40 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:40 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:53 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:53 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:53 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:35:54 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:04 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:27 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:27 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:27 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:36:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:37:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:37:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:37:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:37:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:37:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:37:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 17:37:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 17:38:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 17:38:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/5, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 17:38:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/6, referer: http://localhost:8080/?page=projectdetail&id=2
+[Sun May 31 17:38:31 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:38:31 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:38:37 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 17:38:37 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 17:38:43 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newproject
+[Sun May 31 17:38:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 17:38:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 17:38:53 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:38:53 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:38:53 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:41:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:41:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:41:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:42:01 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:42:01 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 17:42:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=editproject&id=
+[Sun May 31 17:42:41 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=editproject&id=
+[Sun May 31 17:42:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:42:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:42:56 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newevent
+[Sun May 31 17:43:12 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newevent
+[Sun May 31 17:43:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 17:43:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 17:43:43 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newproject
+[Sun May 31 17:43:57 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:43:57 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:47:29 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:47:29 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:47:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newevent
+[Sun May 31 17:48:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:48:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:48:05 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:48:05 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:48:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:48:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:48:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 17:48:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:02:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:02:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:02:21 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:02:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:02:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:02:31 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:02:31 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:03:17 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:03:17 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:03:21 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:03:21 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:03:21 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:03:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=7
+[Sun May 31 19:04:15 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=
+[Sun May 31 19:04:21 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=editproject&id=
+[Sun May 31 19:04:32 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:04:32 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:34:14 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:34:14 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:34:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:34:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:34:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:34:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=editproject&id=1
+[Sun May 31 19:34:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:34:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:36:56 2015] [error] [client ::1] File does not exist: F:/8.5/root/wp-content/themes/mokka/images/favicon.ico, referer: http://localhost:8080/
+[Sun May 31 19:39:55 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:39:55 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:41:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:41:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview

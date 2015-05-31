@@ -26,24 +26,22 @@ function news_item($date, $img, $name, $reaction)
     return array("date" => $date, "img" => $img, "name" => $name, "reaction" => $reaction);
 }
 
-function ads_item($img, $title, $date, $text, $linked)
+function ads_item($id,$img, $title, $date, $text)
 {
     if($img == null) $img = "";
     if($title == null) $title = "";
     if($date == null) $date = "";
     if($text == null) $text = "";
-    if($linked == null) $linked = "";
-    return array($img, $title, $date, $text, $linked);
+    return array($id,$img, $title, $date, $text);
 }
 
-function articles_item($title, $date, $category, $text, $linked)
+function articles_item($id,$title, $date, $category, $text)
 {
     if($title == null) $title = "";
     if($date == null) $date = "";
     if($category == null) $category = "";
     if($text == null) $text = "";
-    if($linked == null) $linked = "";
-    return array($title, $date, $category, $text, $linked);
+    return array($id,$title, $date, $category, $text);
 }
 
 function comments_item($date, $img, $name, $reaction, $delete)
@@ -54,6 +52,18 @@ function comments_item($date, $img, $name, $reaction, $delete)
     if($reaction == null) $reaction = "";
     if($delete == null) $delete = "";
     return array($date, $img, $name, $reaction, $delete);
+}
+
+function foto_item($id, $url, $delete)
+{
+    if($url == null) $url = "";
+    return array($id,$url,$delete);
+}
+
+function gebruiker_item($id,$gebruikernaam)
+{
+    if($gebruikernaam == null) $gebruikernaam = "";
+    return array($id,$gebruikernaam);
 }
 
 function project_detail($id, $title, $description, $date, $time, $city, $street, $website, $name, $category){

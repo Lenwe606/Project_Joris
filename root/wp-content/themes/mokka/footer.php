@@ -24,7 +24,7 @@
 
     
 
-    <div class="copyright-wrapper">
+    <div class="copyright-wrapper" >
 
         <div class="container">
 

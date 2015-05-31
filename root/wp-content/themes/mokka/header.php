@@ -104,33 +104,4 @@ global $fave_option; // Fetch options stored in $nt_option;
                     <em class="tag-line"><?php bloginfo( 'description' ); ?></em>
                 </div><!-- .logo-wrap -->
                 
-                <?php if($fave_option['mokka_sticky_nav'] == 1 ){ ?>
-                <div class="banner hidden-sm hidden-xs">
-                    <div class="banner-wrapper">
-                        <div class="navbar-header">
-                          <a class="navbar-brand" href="<?php echo site_url(); ?>">
-                            <img src="<?php echo $sticky_logo; ?>">
-                          </a>
-                        </div>
-                        <!-- main nav -->
-                        <div class="navbar yamm hidden-sm hidden-xs">
-                            <nav id="primary-nav-wrapper" class="primary-nav mokka-fadin animated clearfix">
-                                <?php fave_navigation('main_menu', 'mega-menu'); ?>
-                            </nav>
-                        </div>
-                        <!-- .primary-nav -->
-                    </div>
-                </div>
-                <?php } ?>
-                	<!-- main nav -->
-                	<div class="navbar <?php if($fave_option['mokka_sticky_nav'] == 1 ){ echo "main-hidden"; } ?> yamm hidden-sm hidden-xs">
-                	    <nav id="primary-nav-wrapper" class="primary-nav animated mokka-main-menu clearfix">
-                	        <?php fave_navigation('main_menu', 'mega-menu'); ?>
-                	    </nav>
-                	</div>
-                	<!-- .primary-nav -->
-              
-               
-            </header><!-- .header -->
-            
-           <div id="showHere"></div>
+                

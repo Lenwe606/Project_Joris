@@ -41,7 +41,7 @@ function events_limited($array, $amount)
     for ($i = 0; $i < $max; $i++) {
         ?>
         <li>
-            <a href="./eventdetail.php?id=<?php echo $array[$i]["id"]; ?>">
+            <a href="./index.php?page=eventdetail&id=<?php echo $array[$i]["id"]; ?>">
                 <p class="event_title"><?php echo $array[$i]["title"]; ?></p>
 
                 <p class="event_date"><?php echo $array[$i]["date"]; ?></p>
@@ -78,6 +78,15 @@ function projects_limited($array, $amount)
                 <p class="project_description"><?php echo $array[$i]["description"]; ?></p>
             </a>
         </li>
+    <?php
+    }
+}
+
+function fotos($array)
+{
+    for($i = 0;$i<count($array);$i++)
+    {?>
+        <p><img src="/wp-content/themes/mokka-child/img/<?php echo $array[$i][1] ?>"></p>
     <?php
     }
 }
@@ -174,17 +183,16 @@ function ads_limited($array, $amount)
     else $max = $amount;
     for ($i = 0; $i < $max; $i++) {
         ?>
-        <li>
-            <p class="ads_img"><img src="<?php echo $array[$i][0]; ?>"/></p>
+        <li><a href="./index.php?page=addetail&id=<?php echo $array[$i][0]; ?>">
+            <p class="ads_img"><img src="<?php echo $array[$i][1]; ?>"/></p>
 
-            <p class="ads_name"><?php echo $array[$i][1]; ?></p>
+            <p class="ads_name"><?php echo $array[$i][2]; ?></p>
 
-            <p class="ads_date"><?php echo $array[$i][2]; ?></p>
+            <p class="ads_date"><?php echo $array[$i][3]; ?></p>
 
-            <p class="ads_linked_name"><?php echo $array[$i][3]; ?></p>
+            <p class="ads_linked_name"><?php echo $array[$i][4]; ?></p>
 
-            <p class="ads_linked_value"><?php echo $array[$i][4]; ?></p>
-        </li>
+        </a></li>
     <?php
     }
 }
@@ -196,16 +204,15 @@ function articles_limited($array, $amount)
     else $max = $amount;
     for ($i = 0; $i < $max; $i++) {
         ?>
-        <li>
-            <p class="article_name"><?php echo $array[$i][0]; ?></p>
+        <li><a href="./index.php?page=articledetail&id=<?php echo $array[$i][0]; ?>">
+            <p class="article_name"><?php echo $array[$i][1]; ?></p>
 
-            <p class="article_date"><?php echo $array[$i][1]; ?></p>
+            <p class="article_date"><?php echo $array[$i][2]; ?></p>
 
-            <p class="article_category"><?php echo $array[$i][2]; ?></p>
-
-            <p class="article_linked_name"><?php echo $array[$i][3]; ?></p>
+            <p class="article_category"><?php echo $array[$i][3]; ?></p>
 
             <p class="article_linked_value"><?php echo $array[$i][4]; ?></p>
+            </a>
         </li>
     <?php
     }
@@ -237,7 +244,7 @@ function members($array)
 {
     for ($i = 0; $i < count($array); $i++) {
         ?>
-        <li><?php echo $array[$i]; ?></li>
+        <li><a href="./index.php?page=memberdetail&id=<?php echo $array[$i][0]; ?>"><?php echo $array[$i][1]; ?></a></li>
     <?php
     }
 }

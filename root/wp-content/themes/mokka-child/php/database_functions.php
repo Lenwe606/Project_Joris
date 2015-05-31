@@ -161,10 +161,139 @@ function get_detail_project($id){
         $projectReactiesArray[] = comments_item($row["Aanmaakdatum"],$row["Id"], $row["AdminId"], $row["Omschrijving"],false);
     }
 
+    //FOTOS
+    $sql = "SELECT tblfotos.*
+            FROM tblprojectfotos
+            RIGHT JOIN tblFotos ON tblProjectfotos.FotoId = tblfotos.Id
+            WHERE tblprojectfotos.ProjectId =?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query: '.$conn->error);
+    }
+    while($row = $result->fetch_array(MYSQLI_ASSOC)){
+        $projectFotosArray[] = foto_item($row["Id"],$row["Url"],false);
+    }
+
+    //LEDEN
+    $sql = "SELECT tblgebruikers.*
+            FROM tblprojectgebruikers
+            RIGHT JOIN tblgebruikers ON tblprojectgebruikers.GebruikerId = tblgebruikers.Id
+            WHERE tblprojectgebruikers.ProjectId = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query:' .$conn->error);
+    }        
+    while($row = $result->fetch_array(MYSQLI_ASSOC)){
+        $projectGebruikersArray[] = gebruiker_item($row["Id"],$row["Gebruikersnaam"]);
+    }
+
+    //EVENTS
+    $sql = "SELECT tblevents.*
+            FROM tblprojectevents
+            RIGHT JOIN tblevents ON tblprojectevents.EventId = tblevents.Id
+            WHERE tblprojectevents.ProjectId = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query:' .$conn->error);
+    }        
+    while($row = $result->fetch_array(MYSQLI_ASSOC)){
+        $projectEventsArray[] = events_item($row["Id"],$row["Titel"],$row["Datum"],getStad($row["PlaatsId"]),$row["Omschrijving"]);
+    }
+
+    //ZOEKERTJES
+    $sql = "SELECT tblzoekertjes.*
+            FROM tblprojectzoekertjes
+            RIGHT JOIN tblzoekertjes ON tblprojectzoekertjes.ZoekertjeId = tblzoekertjes.Id
+            WHERE tblprojectzoekertjes.ProjectId = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query:' .$conn->error);
+    }        
+    while($row = $result->fetch_array(MYSQLI_ASSOC)){        
+        $projectZoekertjesArray[] = ads_item($row["Id"],GetAdFoto($row["Id"]),$row["Titel"],$row["Aanmaakdatum"],$row["Omschrijving"]);
+    }
+
+    //ARTIKELS
+    $sql = "SELECT tblartikels.*
+            FROM tblprojectartikels
+            RIGHT JOIN tblartikels ON tblprojectartikels.ArtikelId = tblartikels.Id
+            WHERE tblprojectartikels.ProjectId = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query:' .$conn->error);
+    }        
+    while($row = $result->fetch_array(MYSQLI_ASSOC)){
+        $projectArtikelsArray[] = articles_item($row["Id"],$row["Titel"],$row["Aanmaakdatum"],GetCategorie($row["CategoreId"]),$row["Omschrijving"]);
+    }
+
     $conn->close();
     $result->close();
 
     return array($projectDetailArray, $projectFotosArray, $projectGebruikersArray, $projectEventsArray, $projectZoekertjesArray, $projectArtikelsArray, $projectReactiesArray);
+}
+
+function GetCategorie($id)
+{
+    $conn = DB_connectie();
+    $sql = "SELECT Naam FROM tblcategorieen WHERE Id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query: '.$conn->error);
+    }
+    $row = $result->fetch_array(MYSQLI_ASSOC);
+    return $row["Naam"];
+}
+
+function GetAdFoto($id)
+{
+    
+   $conn = DB_connectie();
+    $sql = "SELECT tblfotos.*
+            FROM tblzoekertjefotos 
+            RIGHT JOIN tblfotos ON tblzoekertjefotos.FotoId = tblFotos.Id
+            WHERE tblzoekertjefotos.ZoekertjeId = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query: '.$conn->error);
+    }
+    $row = $result->fetch_array(MYSQLI_ASSOC);
+    return $row[0]["Url"];
+}
+
+function getStad($id)
+{
+    $conn = DB_connectie();
+    $sql = "SELECT Gemeente FROM tblSteden WHERE Id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query: '.$conn->error);
+    }
+    $row = $result->fetch_array(MYSQLI_ASSOC);
+    return $row["Gemeente"];
 }
 
 function add_project($title, $description, $date, $runtime, $location, $street, $website, $user, $category){
