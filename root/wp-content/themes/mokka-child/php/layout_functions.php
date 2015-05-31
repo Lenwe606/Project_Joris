@@ -162,7 +162,7 @@ function linked_events_limited($array, $amount)
     for ($i = 0; $i < $max; $i++) {
         ?>
         <li class="offset">
-            <a href="./eventdetail.php?id=<?php echo $array[$i]["id"]; ?>">
+            <a href="./index.php?page=eventdetail&id=<?php echo $array[$i]["id"]; ?>">
                 <p class="event_title"><?php echo $array[$i]["title"]; ?></p>
 
                 <p class="event_date"><?php echo $array[$i]["date"]; ?></p>

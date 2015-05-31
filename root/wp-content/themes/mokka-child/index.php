@@ -1,4 +1,4 @@
-<?php get_header();register_nav_menus( array('overview' => "Home", "projectoverview" => "Project overview")); ?>
+<?php get_header();?>
 
 <?php if($fave_option['mokka_sticky_nav'] == 1 ){ ?>
                 <div class="banner hidden-sm hidden-xs">

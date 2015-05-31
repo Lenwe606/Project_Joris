@@ -407,3 +407,158 @@
 [Sun May 31 19:39:55 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
 [Sun May 31 19:41:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
 [Sun May 31 19:41:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:46:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:46:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 19:46:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:46:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:46:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 19:47:05 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 19:47:05 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:01:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:01:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:01:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:02:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:02:17 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function get_detail_event() in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\eventdetail.php on line 14, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:02:18 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function get_detail_event() in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\eventdetail.php on line 14, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:02:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:27:27 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function get_detail_event() in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\eventdetail.php on line 14, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:27:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:29:47 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function get_detail_event() in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\eventdetail.php on line 14, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:29:48 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:30:06 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function get_detail_event() in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\eventdetail.php on line 14, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:30:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:32:36 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function get_detail_event() in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\eventdetail.php on line 14, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:32:37 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:33:30 2015] [error] [client ::1] PHP Parse error:  syntax error, unexpected T_VARIABLE in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\name.inc.php on line 25, referer: http://localhost:8080/
+[Sun May 31 20:33:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:33:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:33:55 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:34:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 20:34:02 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 20:34:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:34:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:34:10 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 20:34:10 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 20:34:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 20:34:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 20:34:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 20:34:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:34:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:34:23 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:58:03 2015] [error] [client ::1] PHP Parse error:  syntax error, unexpected '}' in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\array_functions.php on line 94, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:58:17 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 20:58:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:58:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:58:56 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:58:56 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:59:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 20:59:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:01:05 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:01:05 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:01:08 2015] [error] [client ::1] PHP Fatal error:  Call to a member function bind_param() on a non-object in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 267, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:01:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:03:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:03:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:03:47 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:03:47 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:04:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:04:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:04:12 2015] [error] [client ::1] PHP Fatal error:  Call to a member function bind_param() on a non-object in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 267, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:04:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:05:14 2015] [error] [client ::1] PHP Fatal error:  Call to a member function bind_param() on a non-object in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 267, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 21:05:14 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:06:53 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:08:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:09:05 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:09:29 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:12:21 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:12:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:13:00 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:13:32 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:13:44 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 21:13:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 21:13:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 21:14:03 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:14:10 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 21:14:20 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:22:42 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:23:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:23:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:23:52 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:23:56 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:24:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:25:11 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:29:07 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:29:31 2015] [error] [client ::1] PHP Parse error:  syntax error, unexpected '[' in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\eventdetail.php on line 57, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:29:43 2015] [error] [client ::1] PHP Parse error:  syntax error, unexpected '[' in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\eventdetail.php on line 57, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:29:51 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:29:59 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:30:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:30:18 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:32:19 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:33:14 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:33:27 2015] [error] [client ::1] File does not exist: F:/8.5/root/favicon.ico, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:34:16 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:36:11 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:36:40 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:37:39 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:39:03 2015] [error] [client ::1] PHP Fatal error:  Call to a member function bind_param() on a non-object in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 94
+[Sun May 31 22:39:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:39:08 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:39:14 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:40:14 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:43:07 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 22:43:07 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 22:43:12 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=3
+[Sun May 31 22:43:12 2015] [error] [client ::1] File does not exist: F:/8.5/root/9, referer: http://localhost:8080/?page=projectdetail&id=3
+[Sun May 31 22:43:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 22:43:25 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 22:43:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:43:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:43:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:48:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:48:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:48:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:48:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:48:22 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:48:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:48:26 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:48:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/2, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:48:30 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:49:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 22:49:24 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 22:49:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:49:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:49:28 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:49:51 2015] [error] [client ::1] script 'F:/8.5/root/eventdetail.php' not found or unable to stat, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:50:34 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:50:35 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:50:35 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:50:35 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:50:35 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:50:42 2015] [error] [client ::1] script 'F:/8.5/root/eventdetail.php' not found or unable to stat, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:50:45 2015] [error] [client ::1] script 'F:/8.5/root/eventdetail.php' not found or unable to stat, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:51:57 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:51:57 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=eventoverview
+[Sun May 31 22:52:01 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:52:01 2015] [error] [client ::1] File does not exist: F:/8.5/root/2, referer: http://localhost:8080/?page=eventdetail&id=1
+[Sun May 31 22:52:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 22:52:45 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects
+[Sun May 31 22:52:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:52:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:52:49 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:52:53 2015] [error] [client ::1] script 'F:/8.5/root/eventdetail.php' not found or unable to stat, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:53:35 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:53:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:53:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:53:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:53:36 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:54:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:54:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/3, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:54:06 2015] [error] [client ::1] File does not exist: F:/8.5/root/10, referer: http://localhost:8080/?page=projectdetail&id=1
+[Sun May 31 22:54:09 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=2
+[Sun May 31 22:55:12 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=eventdetail&id=2
+[Sun May 31 22:55:16 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=newevent&id=2
+[Sun May 31 22:55:40 2015] [error] [client ::1] PHP Fatal error:  Call to a member function bind_param() on a non-object in F:\\8.5\\root\\wp-content\\themes\\mokka-child\\php\\database_functions.php on line 94, referer: http://localhost:8080/?page=newevent&id=2
+[Sun May 31 22:56:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/css, referer: http://localhost:8080/?page=projects
+[Sun May 31 22:56:13 2015] [error] [client ::1] File does not exist: F:/8.5/root/js, referer: http://localhost:8080/?page=projects

@@ -74,12 +74,12 @@ function get_citys(){
 function get_events(){
     $eventsArray = array();
     $conn = DB_connectie();
-    $sql = "SELECT Id, Titel, Datum, Straat, Omschrijving FROM tblevents";
+    $sql = "SELECT Id, Titel, Startdatum, Straat, Omschrijving FROM tblevents";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
         while($row = $result->fetch_assoc()) {
-            $eventsArray[] = events_item($row["Id"], $row["Titel"], $row["Datum"],  $row["Straat"], $row["Omschrijving"]);
+            $eventsArray[] = events_item($row["Id"], $row["Titel"], $row["Startdatum"],  $row["Straat"], $row["Omschrijving"]);
         }
     }
     $conn->close();
@@ -89,7 +89,7 @@ function get_events(){
 function get_new_events($amount){
     $eventsArray = array();
     $conn = DB_connectie();
-    $sql = "SELECT Id, Titel, Datum, Straat, Omschrijving FROM tblevents ORDER BY Id DESC LIMIT ?";
+    $sql = "SELECT Id, Titel, Startdatum, Straat, Omschrijving FROM tblevents ORDER BY Id DESC LIMIT ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("i", $amount);
     $stmt->execute();
@@ -158,7 +158,7 @@ function get_detail_project($id){
         die('Probleem met de query: ' . $conn->error);
     }
     while($row = $result->fetch_array(MYSQL_ASSOC)){
-        $projectReactiesArray[] = comments_item($row["Aanmaakdatum"],$row["Id"], $row["AdminId"], $row["Omschrijving"],false);
+        $projectReactiesArray[] = comments_item($row["Aanmaakdatum"],$row["Id"], GetGebruiker($row["AdminId"]), $row["Omschrijving"],false);
     }
 
     //FOTOS
@@ -245,6 +245,110 @@ function get_detail_project($id){
     $result->close();
 
     return array($projectDetailArray, $projectFotosArray, $projectGebruikersArray, $projectEventsArray, $projectZoekertjesArray, $projectArtikelsArray, $projectReactiesArray);
+}
+
+function get_detail_event($id)
+{
+    $eventDetailArray = array();
+    $eventFotosArray = array();
+    $eventGebruikerArray = array();
+    $eventReactiesArray = array();
+
+    $conn = DB_connectie();
+
+    //EVENT
+    $sql = "SELECT e.ID, e.Titel, e.Omschrijving, e.Startdatum, e.Einddatum, e.Starttijd, s.Gemeente, e.Straat, e.Website, u.Gebruikersnaam, c.Naam as Categorie
+            FROM tblevents e
+            JOIN tblgebruikers u ON e.AdminId = u.Id
+            JOIN tblsteden s ON e.PlaatsId = s.Id
+            JOIN tblcategorieen c ON e.CategorieId = c.Id
+            WHERE e.Id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query:' .$conn->error);
+    }        
+    while($row = $result->fetch_array(MYSQLI_ASSOC)){
+        $eventDetailArray[] = event_details($row["Id"],$row["Titel"],$row["Gebruikersnaam"],$row["Startdatum"],$row["Einddatum"],$row["Starttijd"],$row["Gemeente"],$row["Categorie"],$row["Website"],$row["Omschrijving"]);
+    }
+
+    //FOTOS
+    $sql = "SELECT tblFotos.*
+            FROM tbleventfotos
+            RIGHT JOIN tblFotos ON tbleventfotos.FotoId = tblfotos.Id
+            WHERE tbleventfotos.EventId = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result)
+    {
+        die('Probleem met de query: '.$conn->error);
+    }
+    while($row = $result->fetch_array(MYSQLI_ASSOC))
+    {
+        $eventFotosArray[] = foto_item($row["Id"],$row["Url"],false);
+    }
+
+    //LEDEN
+    $sql = "SELECT tblgebruikers.*
+            FROM tbleventgebruikers
+            RIGHT JOIN tblgebruikers ON tbleventgebruikers.GebruikerId = tblgebruikers.Id
+            WHERE tbleventgebruikers.EventId = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result)
+    {
+        die('Probleem met de query: '.$conn->error);
+    }
+    while($row = $result->fetch_array(MYSQLI_ASSOC))
+    {
+        $eventGebruikerArray[] = gebruiker_item($row["Id"],$row["Gebruikersnaam"]);
+    }
+    print_r($eventGebruikerArray);
+
+    //REACTIES
+    $sql = "SELECT tblReacties.*
+            FROM tbleventreacties 
+            RIGHT JOIN tblReacties ON tbleventreacties.ReactieId = tblReacties.Id
+            WHERE tbleventreacties.EventId = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result)
+    {
+        die('Probleem met de query: '.$conn->error);
+    }
+    while($row = $result->fetch_array(MYSQLI_ASSOC))
+    {
+        $eventReactiesArray[] = comments_item($row["Aanmaakdatum"],$row["Id"],GetGebruiker($row["AdminId"]),$row["Omschrijving"],false);
+    }
+
+    $conn->close();
+    $result->close();
+
+
+    return array($eventDetailArray, $eventFotosArray, $eventGebruikerArray, $eventReactiesArray);
+}
+
+function GetGebruiker($id)
+{
+    $conn = DB_connectie();
+    $sql = "SELECT Gebruikersnaam FROM tblgebruikers WHERE Id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i",$id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query: '.$conn->error);
+    }
+    $row = $result->fetch_array(MYSQLI_ASSOC);
+    return $row["Gebruikersnaam"];
 }
 
 function GetCategorie($id)

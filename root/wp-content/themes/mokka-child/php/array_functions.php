@@ -60,10 +60,10 @@ function foto_item($id, $url, $delete)
     return array($id,$url,$delete);
 }
 
-function gebruiker_item($id,$gebruikernaam)
+function gebruiker_item($id,$gebruikersnaam)
 {
-    if($gebruikernaam == null) $gebruikernaam = "";
-    return array($id,$gebruikernaam);
+    if($gebruikernaam == null) $gebruikersnaam = "";
+    return array($id,$gebruikersnaam);
 }
 
 function project_detail($id, $title, $description, $date, $time, $city, $street, $website, $name, $category){
@@ -77,6 +77,20 @@ function project_detail($id, $title, $description, $date, $time, $city, $street,
     if($name == null) $name = "";
     if($category == null) $category = "";
     return array("id" => $id, "title" => $title, "description" => $description, "date" => $date, "time" =>$time, "city" => $city, "street" => $street, "website" => $website, "name" => $name, "category" => $category);
+}
+
+function event_details($id,$title,$gebruikersnaam,$startdate,$enddate,$starttime,$location,$category,$website,$description)
+{
+    if($title == null) $title = "";
+    if($gebruikersnaam == null) $gebruikersnaam = "";
+    if($startdate == null) $startdate = "";
+    if($enddate == null) $enddate = "";
+    if($starttime == null) $starttime = "";
+    if($location == null) $location = "";
+    if($category == null) $category = "";
+    if($website == null) $website = "";
+    if($description == null) $description = "";
+    return array($id,$title,$gebruikersnaam,$startdate,$enddate,$starttime,$location,$category,$website,$description);
 }
 
 function citysList($id, $city){
