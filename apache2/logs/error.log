@@ -1,59 +1,8 @@
-[Mon Jun 01 09:24:38 2015] [notice] Apache/2.2.21 (Win32) PHP/5.3.9 configured -- resuming normal operations
-[Mon Jun 01 09:24:38 2015] [notice] Server built: Sep 10 2011 11:34:11
-[Mon Jun 01 09:24:38 2015] [notice] Parent: Created child process 4600
-[Mon Jun 01 09:24:38 2015] [notice] Child 4600: Child process is running
-[Mon Jun 01 09:24:38 2015] [notice] Child 4600: Acquired the start mutex.
-[Mon Jun 01 09:24:38 2015] [notice] Child 4600: Starting 64 worker threads.
-[Mon Jun 01 09:24:38 2015] [notice] Child 4600: Starting thread to listen on port 8080.
-[Mon Jun 01 09:24:38 2015] [notice] Child 4600: Starting thread to listen on port 8080.
-[Mon Jun 01 09:25:21 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=eventdetail&id=2
-[Mon Jun 01 09:30:30 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=projects
-[Mon Jun 01 09:30:30 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=projects
-[Mon Jun 01 09:30:51 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function article_limitid() in C:\\Users\\Thrall\\Desktop\\2014 - 2015\\Semester 2\\Project\\JORIS\\Project_Joris\\root\\wp-content\\themes\\mokka-child\\articleoverview.php on line 27, referer: http://localhost:8080/?page=projects
-[Mon Jun 01 09:31:17 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function article_limited() in C:\\Users\\Thrall\\Desktop\\2014 - 2015\\Semester 2\\Project\\JORIS\\Project_Joris\\root\\wp-content\\themes\\mokka-child\\articleoverview.php on line 27, referer: http://localhost:8080/?page=projects
-[Mon Jun 01 09:31:40 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function article_limited() in C:\\Users\\Thrall\\Desktop\\2014 - 2015\\Semester 2\\Project\\JORIS\\Project_Joris\\root\\wp-content\\themes\\mokka-child\\articleoverview.php on line 27, referer: http://localhost:8080/?page=projects
-[Mon Jun 01 09:32:07 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:35:49 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:36:40 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:36:44 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:37:33 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:37:37 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:37:37 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/img, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:37:48 2015] [error] [client ::1] PHP Fatal error:  Call to undefined function ads_limitid() in C:\\Users\\Thrall\\Desktop\\2014 - 2015\\Semester 2\\Project\\JORIS\\Project_Joris\\root\\wp-content\\themes\\mokka-child\\adoverview.php on line 31, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:37:48 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:38:23 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:38:23 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:38:23 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/Ik zoek een hamer, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:38:23 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/Materiaal om te lenen, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:38:23 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/Ik zoek een hamer, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:38:23 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/Materiaal om te lenen, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:39:21 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:39:21 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/Ik zoek een hamer, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:39:21 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:39:21 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/Materiaal om te lenen, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:40:47 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:40:47 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:40:47 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/1.jpg, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:40:47 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/2.jpg, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:40:47 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/1.jpg, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:40:47 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/2.jpg, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:41:03 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:41:05 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=eventoverview
-[Mon Jun 01 09:41:05 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=eventoverview
-[Mon Jun 01 09:41:08 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:41:09 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/img, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:41:09 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:42:52 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:42:52 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/img, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:42:52 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/img, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:43:58 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:44:01 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:44:01 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/img, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:44:09 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:44:09 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/1.jpg, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:44:09 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:44:09 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/2.jpg, referer: http://localhost:8080/?page=ads
-[Mon Jun 01 09:44:13 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:47:05 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/js, referer: http://localhost:8080/?page=articles
-[Mon Jun 01 09:47:07 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/css, referer: http://localhost:8080/?page=articledetail&id=2
-[Mon Jun 01 09:47:07 2015] [error] [client ::1] File does not exist: C:/Users/Thrall/Desktop/2014 - 2015/Semester 2/Project/JORIS/Project_Joris/root/img, referer: http://localhost:8080/?page=articledetail&id=2
+[Mon Jun 01 10:40:00 2015] [notice] Apache/2.2.21 (Win32) PHP/5.3.9 configured -- resuming normal operations
+[Mon Jun 01 10:40:00 2015] [notice] Server built: Sep 10 2011 11:34:11
+[Mon Jun 01 10:40:00 2015] [notice] Parent: Created child process 2884
+[Mon Jun 01 10:40:01 2015] [notice] Child 2884: Child process is running
+[Mon Jun 01 10:40:01 2015] [notice] Child 2884: Acquired the start mutex.
+[Mon Jun 01 10:40:01 2015] [notice] Child 2884: Starting 64 worker threads.
+[Mon Jun 01 10:40:01 2015] [notice] Child 2884: Starting thread to listen on port 8080.
+[Mon Jun 01 10:40:01 2015] [notice] Child 2884: Starting thread to listen on port 8080.
