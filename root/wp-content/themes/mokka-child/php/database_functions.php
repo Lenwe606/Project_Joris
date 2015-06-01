@@ -458,7 +458,7 @@ function get_detail_article($id){
     }
 
     //REACTIES
-    /*$sql = "SELECT tblReacties.*
+    $sql = "SELECT tblReacties.*
             FROM tblArtikelReacties
             RIGHT JOIN tblReacties ON tblArtikelReacties.ReactieId = tblReacties.Id
 
@@ -471,8 +471,8 @@ function get_detail_article($id){
         die('Probleem met de query: ' . $conn->error);
     }
     while($row = $result->fetch_array(MYSQL_ASSOC)){
-        $articleReactionsArray[] = comments_item($row["Aanmaakdatum"],$row["Id"], $row["AdminId"], $row["Omschrijving"],false);
-    }*/
+        $articleReactionsArray[] = comments_item($row["Aanmaakdatum"],$row["Id"],GetGebruiker($row["AdminId"]),$row["Omschrijving"],false);
+    }
 
     $conn->close();
     $result->close();

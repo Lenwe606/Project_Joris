@@ -61,9 +61,10 @@
         </section>
 
         <section class="comments">
-            <ul><?php echo comments_limited($detail[6], $detail_max_shown_comments); ?></ul>
+            <ul><?php echo comments_limited($detail[3], $detail_max_shown_comments); ?></ul>
+
             <?php
-            if (count($commentsArray) > $detail_max_shown_comments) {
+            if(count($detail[3]) > $detail_max_shown_comments) {
                 ?>
                 <p class="more_items"><a href=""><?php echo $detail_more_comment; ?></a></p>
             <?php
