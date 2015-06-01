@@ -409,6 +409,101 @@ function add_project($title, $description, $date, $runtime, $location, $street, 
     return $result;
 }
 
+function get_articles($amount){
+    $eventsArray = array();
+    $conn = DB_connectie();
+    $sql = "SELECT tblartikels.*, tblgebruikers.gebruikersnaam as User, tblcategorieen.naam as Categorie FROM tblartikels 
+            inner join tblgebruikers on tblartikels.AdminId = tblgebruikers.Id
+            inner join tblcategorieen on tblartikels.CategorieId = tblcategorieen.Id
+            ORDER BY tblartikels.Aanmaakdatum DESC LIMIT ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $amount);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query: ' . $conn->error);
+    }
+    while($row = $result->fetch_array(MYSQL_ASSOC)){
+        $eventsArray[] = articles_item($row["Id"], $row["Titel"], $row["Aanmaakdatum"],  $row["Categorie"], $row["Omschrijving"]);
+    }
+    $conn->close();
+    $result->close();
+    return $eventsArray;
+}
+
+function get_detail_article($id){
+    $articleDetailArray = array();
+    $articlePhotosArray = array();
+    $articleProjectDetailArray = array();
+    $articleReactionsArray = array();
+
+    $conn = DB_connectie();
+
+    //PROJECT
+    $sql = "SELECT tblArtikels.*, tblGebruikers.Gebruikersnaam as User, tblCategorieen.Naam as Categorie FROM tblArtikels 
+            inner join tblgebruikers
+            ON tblArtikels.AdminId=tblGebruikers.Id
+            inner join tblCategorieen 
+            ON tblArtikels.CategorieId = tblCategorieen.Id
+            WHERE tblArtikels.Id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query: ' . $conn->error);
+    }
+    while($row = $result->fetch_array(MYSQL_ASSOC)){
+        $articleDetailArray = articles_item_full($row["Id"], $row["Titel"], $row["Omschrijving"],  $row["Aanmaakdatum"], $row["User"], $row["Categorie"]);
+    }
+
+    //REACTIES
+    /*$sql = "SELECT tblReacties.*
+            FROM tblArtikelReacties
+            RIGHT JOIN tblReacties ON tblArtikelReacties.ReactieId = tblReacties.Id
+
+            WHERE tblArtikelReacties.ArtikelId = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query: ' . $conn->error);
+    }
+    while($row = $result->fetch_array(MYSQL_ASSOC)){
+        $articleReactionsArray[] = comments_item($row["Aanmaakdatum"],$row["Id"], $row["AdminId"], $row["Omschrijving"],false);
+    }*/
+
+    $conn->close();
+    $result->close();
+
+    return array($articleDetailArray, $articlePhotosArray, $articleProjectDetailArray, $articleReactionsArray);
+}
+
+function get_ads($amount){
+    $eventsArray = array();
+    $conn = DB_connectie();
+    $sql = "SELECT tblzoekertjes.*, tblgebruikers.gebruikersnaam as User, tblcategorieen.naam as Categorie, tblFotos.url as Url FROM tblzoekertjes
+            inner join tblgebruikers on tblzoekertjes.AdminId = tblgebruikers.Id
+            inner join tblcategorieen on tblzoekertjes.CategorieId = tblcategorieen.Id
+            left join tblzoekertjefotos on tblzoekertjes.Id = tblzoekertjefotos.ZoekertjeId
+            left join tblFotos on tblzoekertjefotos.ZoekertjeId = tblfotos.Id
+            LIMIT ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $amount);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if(!$result){
+        die('Probleem met de query: ' . $conn->error);
+    }
+    while($row = $result->fetch_array(MYSQL_ASSOC)){
+        $eventsArray[] = ads_item($row["Id"], $row["Url"], $row["Titel"],  $row["Aanmaakdatum"], $row["Omschrijving"]);
+    }
+    $conn->close();
+    $result->close();
+    return $eventsArray;
+}
+
 function DB_connectie(){
     $servername = "localhost";
     $username = "root";

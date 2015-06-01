@@ -35,13 +35,24 @@ function ads_item($id,$img, $title, $date, $text)
     return array($id,$img, $title, $date, $text);
 }
 
-function articles_item($id,$title, $date, $category, $text)
+function articles_item($id, $title, $date, $category, $text)
 {
     if($title == null) $title = "";
     if($date == null) $date = "";
     if($category == null) $category = "";
     if($text == null) $text = "";
     return array($id,$title, $date, $category, $text);
+}
+
+function articles_item_full($id, $title, $description, $date, $user, $category)
+{
+    if($id == null) $id = "";
+    if($title == null) $title = "";
+    if($description == null) $description = "";
+    if($date == null) $date = "";
+    if($user == null) $user = "";
+    if($category == null) $category = "";
+    return array($id, $title, $description, $date, $user, $category);
 }
 
 function comments_item($date, $img, $name, $reaction, $delete)

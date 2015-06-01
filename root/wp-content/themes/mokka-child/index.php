@@ -57,6 +57,9 @@ if(isset($_GET["page"]))
     else if($_GET["page"] == "newproject") get_template_part("newproject");
     else if($_GET["page"] == "newevent") get_template_part("newevent");
     else if($_GET["page"] == "editproject") get_template_part("newproject");
+    else if($_GET["page"] == "articles") get_template_part("articleoverview");
+    else if($_GET["page"] == "articledetail") get_template_part("articledetail");
+    else if($_GET["page"] == "ads") get_template_part("adoverview");
 }
 else get_template_part("overview");
 ?>

@@ -6,6 +6,14 @@
     $more_events = "Meer...";
     $more_projects = "Meer...";
 
+    //ARTIKELS
+    $articles = "Artikels";
+    $new_article = "Schrijf een artikel";
+
+    //ARTIKELS
+    $ads = "Zoekertjes";
+    $new_ad = "Plaats een zoekertje";
+
     //PROJECTS
     $projects = "Projecten";
     $new_project = "Nieuw project";
@@ -21,21 +29,15 @@
     //EVENTS
     $events = "Evenementen";
     $new_event = "Nieuw event";
-    $event_location = "Plaats:";
+
     $event_title = "Titel van het event:";
     $event_start_date = "Startdatum:";
-    $event_end_date = "Einddatum:";
-    $event_start_time = "Starttijd:";
+    $event_end_date = "Startdatum:";
+    $event_start_time = "Startdatum:";
     $event_category = "Categorie:";
     $event_website = "Website:";
     $event_linked_project = "Gekoppeld aan project:";
     $event_description = "Omschrijving:";
-
-    //EVENT DETAIL
-    $detail_start_date = "Startdatum:";
-    $detail_end_date = "Einddatum:";
-    $detail_start_time = "Begint om:";
-    $detail_linked = "Gekoppeld aan:";
 
     //PROJECT DETAIL
     $detail_general = "Algemeen";
